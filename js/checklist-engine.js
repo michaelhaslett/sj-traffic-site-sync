@@ -15,12 +15,12 @@ let equipmentMapData = null;
 export async function loadData() {
   if (!characteristicsData) {
     const [chars, items, map, clientReqs, eqItems, eqMap] = await Promise.all([
-      fetch('/data/characteristics.json').then(r => r.json()),
-      fetch('/data/checklist-items.json').then(r => r.json()),
-      fetch('/data/characteristic-map.json').then(r => r.json()),
-      fetch('/data/client-requirements.json').then(r => r.json()),
-      fetch('/data/equipment-items.json').then(r => r.json()),
-      fetch('/data/equipment-map.json').then(r => r.json())
+      fetch('data/characteristics.json').then(r => r.json()),
+      fetch('data/checklist-items.json').then(r => r.json()),
+      fetch('data/characteristic-map.json').then(r => r.json()),
+      fetch('data/client-requirements.json').then(r => r.json()),
+      fetch('data/equipment-items.json').then(r => r.json()),
+      fetch('data/equipment-map.json').then(r => r.json())
     ]);
     characteristicsData = chars;
     checklistItemsData = items;

@@ -608,7 +608,7 @@ async function loadJobData() {
   const state = getState();
   if (state.jobs.length > 0) return { jobs: state.jobs };
 
-  const res = await fetch('/data/mock-jobs.json');
+  const res = await fetch('data/mock-jobs.json');
   const data = await res.json();
   setState({ jobs: data.jobs });
   return { jobs: data.jobs };
@@ -684,7 +684,7 @@ async function buildFullSyncPayload(jobId, finalizePayload) {
 async function registerSW() {
   if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('/sw.js');
+      await navigator.serviceWorker.register('sw.js');
     } catch (e) {
       console.warn('SW registration failed:', e);
     }

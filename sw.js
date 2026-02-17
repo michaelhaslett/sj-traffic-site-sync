@@ -6,50 +6,56 @@
 
 const CACHE_NAME = 'sj-checklist-v2';
 
-const APP_SHELL = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/css/styles.css',
+// Build paths relative to where the service worker lives
+const BASE = self.registration.scope;
+
+const APP_SHELL_PATHS = [
+  './',
+  'index.html',
+  'manifest.json',
+  'css/styles.css',
   // Core JS
-  '/js/app.js',
-  '/js/store.js',
-  '/js/db.js',
-  '/js/sync.js',
-  '/js/checklist-engine.js',
-  '/js/toast.js',
+  'js/app.js',
+  'js/store.js',
+  'js/db.js',
+  'js/sync.js',
+  'js/checklist-engine.js',
+  'js/toast.js',
   // Components
-  '/components/nav-bar.js',
-  '/components/job-list.js',
-  '/components/checklist-view.js',
-  '/components/sign-off.js',
-  '/components/sync-status.js',
-  '/components/settings.js',
-  '/components/login.js',
-  '/components/step-indicator.js',
-  '/components/equipment-check.js',
-  '/components/weather-input.js',
-  '/components/photo-capture.js',
-  '/components/hseq-notes.js',
-  '/components/shutdown-view.js',
-  '/components/finalize-job.js',
-  '/components/incident-form.js',
+  'components/nav-bar.js',
+  'components/job-list.js',
+  'components/checklist-view.js',
+  'components/sign-off.js',
+  'components/sync-status.js',
+  'components/settings.js',
+  'components/login.js',
+  'components/step-indicator.js',
+  'components/equipment-check.js',
+  'components/weather-input.js',
+  'components/photo-capture.js',
+  'components/hseq-notes.js',
+  'components/shutdown-view.js',
+  'components/finalize-job.js',
+  'components/incident-form.js',
   // Data
-  '/data/characteristics.json',
-  '/data/checklist-items.json',
-  '/data/characteristic-map.json',
-  '/data/mock-jobs.json',
-  '/data/staff.json',
-  '/data/equipment-items.json',
-  '/data/equipment-map.json',
-  '/data/client-requirements.json',
+  'data/characteristics.json',
+  'data/checklist-items.json',
+  'data/characteristic-map.json',
+  'data/mock-jobs.json',
+  'data/staff.json',
+  'data/equipment-items.json',
+  'data/equipment-map.json',
+  'data/client-requirements.json',
   // Assets
-  '/assets/logo-full.png',
-  '/assets/logo-small.png',
-  '/assets/logo-icon.png',
-  '/assets/icon-192.png',
-  '/assets/icon-512.png',
+  'assets/logo-full.png',
+  'assets/logo-small.png',
+  'assets/logo-icon.png',
+  'assets/icon-192.png',
+  'assets/icon-512.png',
 ];
+
+// Resolve to full URLs so cache.addAll works regardless of deploy path
+const APP_SHELL = APP_SHELL_PATHS.map(p => new URL(p, BASE).href);
 
 // ── Install: Pre-cache app shell ────────────────────────
 
@@ -85,7 +91,7 @@ self.addEventListener('fetch', (event) => {
   if (!url.origin.includes(self.location.origin)) return;
 
   // Data files: network-first (get latest if online, fallback to cache)
-  if (url.pathname.startsWith('/data/')) {
+  if (url.pathname.includes('/data/')) {
     event.respondWith(networkFirst(event.request));
     return;
   }

@@ -12,7 +12,7 @@ export function renderNavBar() {
 
   return `
     <header class="nav-bar">
-      <img src="/assets/logo-small.png" alt="SJ Traffic" class="nav-bar__logo">
+      <img src="assets/logo-small.png" alt="SJ Traffic" class="nav-bar__logo">
       <span class="nav-bar__title">Site Checklist</span>
       <div class="nav-bar__status">
         ${staff ? `<span class="nav-bar__user">${escHtml(staff.name)}</span>` : ''}

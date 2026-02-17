@@ -10,7 +10,7 @@ let staffData = null;
 
 async function loadStaff() {
   if (staffData) return staffData;
-  const res = await fetch('/data/staff.json');
+  const res = await fetch('data/staff.json');
   staffData = await res.json();
   return staffData;
 }
@@ -25,7 +25,7 @@ export async function renderLogin(container, onLogin) {
 
   container.innerHTML = `
     <div class="login-screen">
-      <img src="/assets/logo-full.png" alt="SJ Traffic" class="login-screen__logo">
+      <img src="assets/logo-full.png" alt="SJ Traffic" class="login-screen__logo">
       <h2 class="login-screen__title">Site Checklist</h2>
       <p class="login-screen__subtitle">Select your name to sign in</p>
 
