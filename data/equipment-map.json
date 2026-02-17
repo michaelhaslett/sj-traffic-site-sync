@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "road_single_lane": [
+      "eq_cones_900", "eq_signs_advance_warning", "eq_signs_end_road_work",
+      "eq_stop_slow_bats", "eq_two_way_radios", "eq_first_aid_kit"
+    ],
+    "road_multi_lane": [
+      "eq_cones_900", "eq_signs_advance_warning", "eq_signs_lane_closure",
+      "eq_signs_end_road_work", "eq_arrow_board", "eq_barriers_water",
+      "eq_two_way_radios", "eq_first_aid_kit"
+    ],
+    "road_dual_carriageway": [
+      "eq_cones_900", "eq_signs_advance_warning", "eq_signs_lane_closure",
+      "eq_signs_end_road_work", "eq_arrow_board", "eq_barriers_water",
+      "eq_buffer_vehicle", "eq_two_way_radios", "eq_first_aid_kit"
+    ],
+    "speed_60_or_below": [
+      "eq_signs_advance_warning"
+    ],
+    "speed_70_80": [
+      "eq_signs_advance_warning", "eq_signs_speed_reduction"
+    ],
+    "speed_90_plus": [
+      "eq_signs_advance_warning", "eq_signs_speed_reduction",
+      "eq_tma", "eq_buffer_vehicle"
+    ],
+    "work_lane_closure": [
+      "eq_signs_lane_closure", "eq_arrow_board", "eq_cones_900"
+    ],
+    "work_shoulder_closure": [
+      "eq_cones_900", "eq_delineator_posts"
+    ],
+    "work_road_closure": [
+      "eq_signs_road_closed", "eq_signs_detour", "eq_barriers_water",
+      "eq_portable_signals"
+    ],
+    "work_intersection": [
+      "eq_portable_signals", "eq_stop_slow_bats", "eq_cones_900"
+    ],
+    "time_day": [],
+    "time_night": [
+      "eq_lights_portable", "eq_lights_beacon", "eq_flashing_arrow_board"
+    ],
+    "duration_short": [],
+    "duration_long": [
+      "eq_vms_board", "eq_barriers_concrete"
+    ],
+    "special_school_zone": [
+      "eq_signs_school_zone", "eq_stop_slow_bats"
+    ],
+    "special_near_railway": [
+      "eq_two_way_radios"
+    ],
+    "special_emergency": [
+      "eq_fire_extinguisher", "eq_spill_kit"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "id": "TRF-2026-0184",
+      "client": "Main Roads WA",
+      "project": "Mitchell Freeway Resurfacing \u2014 Stage 3",
+      "location": "Mitchell Fwy, Joondalup to Currambine",
+      "lat": -31.745,
+      "lng": 115.766,
+      "date": "2026-02-17",
+      "startTime": "19:00",
+      "endTime": "05:00",
+      "teamLead": "Marcus Chen",
+      "crewSize": 8,
+      "tmpRef": "TMP-MRW-2026-0312",
+      "characteristics": [
+        "road_dual_carriageway", "speed_90_plus", "time_night",
+        "work_lane_closure", "duration_long"
+      ]
+    },
+    {
+      "id": "TRF-2026-0187",
+      "client": "City of Stirling",
+      "project": "Cedric St / Charles St Intersection Upgrade",
+      "location": "Cedric St & Charles St, Stirling",
+      "lat": -31.877,
+      "lng": 115.840,
+      "date": "2026-02-17",
+      "startTime": "07:00",
+      "endTime": "17:00",
+      "teamLead": "Sarah Nguyen",
+      "crewSize": 5,
+      "tmpRef": "TMP-COS-2026-0198",
+      "characteristics": [
+        "road_multi_lane", "speed_60_or_below", "time_day",
+        "work_intersection", "duration_short"
+      ]
+    },
+    {
+      "id": "TRF-2026-0189",
+      "client": "Public Transport Authority",
+      "project": "Armadale Line Level Crossing Temp Works",
+      "location": "William St, Beckenham",
+      "lat": -32.025,
+      "lng": 115.957,
+      "date": "2026-02-17",
+      "startTime": "20:00",
+      "endTime": "04:00",
+      "teamLead": "Jake Morrison",
+      "crewSize": 6,
+      "tmpRef": "TMP-PTA-2026-0067",
+      "characteristics": [
+        "road_single_lane", "speed_60_or_below", "time_night",
+        "work_road_closure", "duration_short", "special_near_railway"
+      ]
+    },
+    {
+      "id": "TRF-2026-0191",
+      "client": "City of Busselton",
+      "project": "Bussell Hwy Shoulder Repairs \u2014 Km 12\u201318",
+      "location": "Bussell Hwy, Capel to Busselton",
+      "lat": -33.648,
+      "lng": 115.381,
+      "date": "2026-02-17",
+      "startTime": "06:30",
+      "endTime": "15:30",
+      "teamLead": "Beau Thompson",
+      "crewSize": 4,
+      "tmpRef": "TMP-COB-2026-0041",
+      "characteristics": [
+        "road_single_lane", "speed_70_80", "time_day",
+        "work_shoulder_closure", "duration_short"
+      ]
+    },
+    {
+      "id": "TRF-2026-0193",
+      "client": "Department of Education",
+      "project": "Greenfields Primary \u2014 Drop-off Zone Works",
+      "location": "Greenfields Primary School, Mandurah",
+      "lat": -32.538,
+      "lng": 115.771,
+      "date": "2026-02-18",
+      "startTime": "09:30",
+      "endTime": "14:30",
+      "teamLead": "Sarah Nguyen",
+      "crewSize": 3,
+      "tmpRef": "TMP-DOE-2026-0015",
+      "characteristics": [
+        "road_single_lane", "speed_60_or_below", "time_day",
+        "work_shoulder_closure", "duration_short", "special_school_zone"
+      ]
+    }
+  ]
+}

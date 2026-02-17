@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "road_type",
+      "label": "Road Type",
+      "exclusive": true,
+      "tagClass": "tag--road",
+      "characteristics": [
+        { "id": "road_single_lane", "label": "Single Lane" },
+        { "id": "road_multi_lane", "label": "Multi-Lane" },
+        { "id": "road_dual_carriageway", "label": "Dual Carriageway" }
+      ]
+    },
+    {
+      "id": "speed_zone",
+      "label": "Speed Zone",
+      "exclusive": true,
+      "tagClass": "tag--speed",
+      "characteristics": [
+        { "id": "speed_60_or_below", "label": "\u226460 km/h" },
+        { "id": "speed_70_80", "label": "70\u201380 km/h" },
+        { "id": "speed_90_plus", "label": "\u226590 km/h" }
+      ]
+    },
+    {
+      "id": "work_type",
+      "label": "Work Type",
+      "exclusive": false,
+      "tagClass": "tag--work",
+      "characteristics": [
+        { "id": "work_lane_closure", "label": "Lane Closure" },
+        { "id": "work_shoulder_closure", "label": "Shoulder Closure" },
+        { "id": "work_road_closure", "label": "Road Closure" },
+        { "id": "work_intersection", "label": "Intersection" }
+      ]
+    },
+    {
+      "id": "time_of_day",
+      "label": "Time of Day",
+      "exclusive": true,
+      "tagClass": "tag--time",
+      "characteristics": [
+        { "id": "time_day", "label": "Day Works" },
+        { "id": "time_night", "label": "Night Works" }
+      ]
+    },
+    {
+      "id": "duration",
+      "label": "Duration",
+      "exclusive": true,
+      "tagClass": "tag--duration",
+      "characteristics": [
+        { "id": "duration_short", "label": "Short-term" },
+        { "id": "duration_long", "label": "Long-term" }
+      ]
+    },
+    {
+      "id": "special_conditions",
+      "label": "Special Conditions",
+      "exclusive": false,
+      "tagClass": "tag--special",
+      "characteristics": [
+        { "id": "special_school_zone", "label": "School Zone" },
+        { "id": "special_near_railway", "label": "Near Railway" },
+        { "id": "special_emergency", "label": "Emergency Works" }
+      ]
+    }
+  ]
+}

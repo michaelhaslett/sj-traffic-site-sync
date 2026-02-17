@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "Main Roads WA": [
+      "ci_client_mrwa_inspection",
+      "ci_client_mrwa_vms_log",
+      "ci_client_mrwa_daily_report"
+    ],
+    "City of Stirling": [
+      "ci_client_cos_permit_photo",
+      "ci_client_cos_resident_notify"
+    ],
+    "Public Transport Authority": [
+      "ci_client_pta_rail_clearance_log",
+      "ci_client_pta_track_protection"
+    ],
+    "City of Busselton": [
+      "ci_client_cob_council_permit"
+    ],
+    "Department of Education": [
+      "ci_client_doe_school_liaison",
+      "ci_client_doe_pedestrian_plan"
+    ]
+  }
+}

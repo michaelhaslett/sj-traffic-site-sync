@@ -1,0 +1,14 @@
+{
+  "staff": [
+    { "id": "staff_001", "name": "Marcus Chen", "role": "Team Lead", "pin": "1234", "email": "marcus.chen@sjtraffic.com.au" },
+    { "id": "staff_002", "name": "Sarah Nguyen", "role": "Team Lead", "pin": "5678", "email": "sarah.nguyen@sjtraffic.com.au" },
+    { "id": "staff_003", "name": "Jake Morrison", "role": "Traffic Controller", "pin": "2468", "email": "jake.morrison@sjtraffic.com.au" },
+    { "id": "staff_004", "name": "Beau Thompson", "role": "Traffic Controller", "pin": "1357", "email": "beau.thompson@sjtraffic.com.au" },
+    { "id": "staff_005", "name": "Priya Sharma", "role": "Traffic Controller", "pin": "3690", "email": "priya.sharma@sjtraffic.com.au" },
+    { "id": "staff_006", "name": "Tom Bradley", "role": "Supervisor", "pin": "4321", "email": "tom.bradley@sjtraffic.com.au" },
+    { "id": "staff_007", "name": "Liam O'Brien", "role": "Traffic Controller", "pin": "7890", "email": "liam.obrien@sjtraffic.com.au" },
+    { "id": "staff_008", "name": "Aisha Patel", "role": "Team Lead", "pin": "6543", "email": "aisha.patel@sjtraffic.com.au" },
+    { "id": "staff_009", "name": "Dylan Reeves", "role": "Traffic Controller", "pin": "9012", "email": "dylan.reeves@sjtraffic.com.au" },
+    { "id": "staff_010", "name": "Chloe Watkins", "role": "HSEQ Officer", "pin": "1470", "email": "chloe.watkins@sjtraffic.com.au" }
+  ]
+}

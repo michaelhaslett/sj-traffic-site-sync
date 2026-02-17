@@ -1,0 +1,80 @@
+{
+  "mappings": {
+    "road_single_lane": [
+      "ci_advance_warning_600", "ci_end_road_work", "ci_delineation_cones",
+      "ci_taper_correct", "ci_stop_slow_bats", "ci_ppe_hi_vis",
+      "ci_comms_check", "ci_tcp_on_site", "ci_tcp_qualifications",
+      "ci_crew_briefing", "ci_tmp_on_site", "ci_swms_reviewed", "ci_site_clean"
+    ],
+    "road_multi_lane": [
+      "ci_advance_warning_600", "ci_arrow_board", "ci_lane_closure_signs",
+      "ci_end_road_work", "ci_delineation_cones", "ci_delineation_barriers",
+      "ci_taper_correct", "ci_merge_area", "ci_ppe_hi_vis",
+      "ci_comms_check", "ci_comms_tcp_positions", "ci_tcp_on_site",
+      "ci_tcp_qualifications", "ci_crew_briefing", "ci_tmp_on_site",
+      "ci_swms_reviewed", "ci_site_clean"
+    ],
+    "road_dual_carriageway": [
+      "ci_advance_warning_600", "ci_arrow_board", "ci_lane_closure_signs",
+      "ci_end_road_work", "ci_delineation_cones", "ci_delineation_barriers",
+      "ci_taper_correct", "ci_merge_area", "ci_buffer_vehicle",
+      "ci_ppe_hi_vis", "ci_comms_check", "ci_comms_tcp_positions",
+      "ci_tcp_on_site", "ci_tcp_qualifications", "ci_crew_briefing",
+      "ci_tmp_on_site", "ci_swms_reviewed", "ci_site_clean"
+    ],
+    "speed_60_or_below": [
+      "ci_advance_warning_600"
+    ],
+    "speed_70_80": [
+      "ci_advance_warning_600", "ci_speed_reduction_signs",
+      "ci_repeat_warning_signs"
+    ],
+    "speed_90_plus": [
+      "ci_advance_warning_1200", "ci_speed_reduction_signs",
+      "ci_repeat_warning_signs", "ci_buffer_vehicle", "ci_tma_deployed"
+    ],
+    "work_lane_closure": [
+      "ci_lane_closure_signs", "ci_arrow_board", "ci_taper_correct",
+      "ci_merge_area", "ci_delineation_cones"
+    ],
+    "work_shoulder_closure": [
+      "ci_shoulder_delineation", "ci_delineation_cones",
+      "ci_advance_warning_600"
+    ],
+    "work_road_closure": [
+      "ci_road_closure_signs", "ci_detour_signs", "ci_delineation_barriers",
+      "ci_portable_signals", "ci_ped_management"
+    ],
+    "work_intersection": [
+      "ci_intersection_warning", "ci_intersection_control",
+      "ci_portable_signals", "ci_ped_management", "ci_stop_slow_bats"
+    ],
+    "time_day": [
+      "ci_ppe_hi_vis"
+    ],
+    "time_night": [
+      "ci_ppe_hi_vis_night", "ci_signs_retroreflective",
+      "ci_flashing_arrow_board", "ci_lighting_adequate",
+      "ci_vehicle_lights_check"
+    ],
+    "duration_short": [
+      "ci_permit_confirmed"
+    ],
+    "duration_long": [
+      "ci_permit_confirmed", "ci_long_term_site_security",
+      "ci_long_term_signage_check", "ci_vms_board"
+    ],
+    "special_school_zone": [
+      "ci_school_zone_signs", "ci_school_zone_notification",
+      "ci_ped_management"
+    ],
+    "special_near_railway": [
+      "ci_rail_crossing_signs", "ci_rail_protection",
+      "ci_rail_operator_clearance", "ci_comms_emergency_contacts"
+    ],
+    "special_emergency": [
+      "ci_comms_emergency_contacts", "ci_emergency_plan_onsite",
+      "ci_incident_report_forms"
+    ]
+  }
+}

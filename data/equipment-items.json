@@ -1,0 +1,29 @@
+{
+  "items": [
+    { "id": "eq_cones_900", "label": "Traffic Cones (900mm)", "category": "Delineation", "unit": "each" },
+    { "id": "eq_cones_450", "label": "Traffic Cones (450mm)", "category": "Delineation", "unit": "each" },
+    { "id": "eq_barriers_water", "label": "Water-filled Barriers", "category": "Delineation", "unit": "each" },
+    { "id": "eq_barriers_concrete", "label": "Concrete Barriers", "category": "Delineation", "unit": "each" },
+    { "id": "eq_delineator_posts", "label": "Delineator Posts", "category": "Delineation", "unit": "each" },
+    { "id": "eq_signs_advance_warning", "label": "Advance Warning Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_speed_reduction", "label": "Speed Reduction Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_road_closed", "label": "Road Closed Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_detour", "label": "Detour Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_lane_closure", "label": "Lane Closure Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_end_road_work", "label": "End Road Work Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_signs_school_zone", "label": "School Zone Warning Signs", "category": "Signage", "unit": "each" },
+    { "id": "eq_arrow_board", "label": "Arrow Board", "category": "Major Equipment", "unit": "each" },
+    { "id": "eq_flashing_arrow_board", "label": "Flashing Arrow Board", "category": "Major Equipment", "unit": "each" },
+    { "id": "eq_vms_board", "label": "Variable Message Sign (VMS)", "category": "Major Equipment", "unit": "each" },
+    { "id": "eq_tma", "label": "Truck-Mounted Attenuator (TMA)", "category": "Major Equipment", "unit": "each" },
+    { "id": "eq_buffer_vehicle", "label": "Buffer/Shadow Vehicle", "category": "Major Equipment", "unit": "each" },
+    { "id": "eq_portable_signals", "label": "Portable Traffic Signals", "category": "Major Equipment", "unit": "set" },
+    { "id": "eq_stop_slow_bats", "label": "Stop/Slow Bats", "category": "Traffic Control", "unit": "each" },
+    { "id": "eq_two_way_radios", "label": "Two-Way Radios", "category": "Communication", "unit": "each" },
+    { "id": "eq_lights_portable", "label": "Portable Lighting Units", "category": "Lighting", "unit": "each" },
+    { "id": "eq_lights_beacon", "label": "Vehicle Beacons", "category": "Lighting", "unit": "each" },
+    { "id": "eq_first_aid_kit", "label": "First Aid Kit", "category": "Safety", "unit": "each" },
+    { "id": "eq_fire_extinguisher", "label": "Fire Extinguisher", "category": "Safety", "unit": "each" },
+    { "id": "eq_spill_kit", "label": "Spill Kit", "category": "Safety", "unit": "each" }
+  ]
+}
